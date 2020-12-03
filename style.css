@@ -1,0 +1,32 @@
+.container {
+  max-width: 420px;
+  margin: auto;
+  text-align: center;
+}
+
+#city {
+  font-size: 20px
+}
+
+button, input[type=button] {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 10px;
+}
+button:active, input[type=button]:active{
+  background-color: #ddd;
+}
+
+.hidden {
+  display: none !important;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#request {
+  width: 200px;
+}
